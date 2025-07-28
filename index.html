@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tables and Forms Coding Project">
+  <title>Tables and Forms Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tables and Forms Project</h1>
+
+  <!-- Static Tic-Tac-Toe Table -->
+  <h2>Static Tic-Tac-Toe Board</h2>
+  <table class="tic-tac-toe">
+    <tr>
+      <td>X</td>
+      <td>O</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td>X</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>X</td>
+      <td>O</td>
+      <td>X</td>
+    </tr>
+  </table>
+
+  <!-- Complex Table -->
+  <h2>Sample Data Table</h2>
+  <table class="sample-table">
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Contact Info</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Kirat</td>
+      <td>Email</td>
+      <td>kirat@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>123-456-789</td>
+    </tr>
+    <tr>
+      <td>Bob the Builder</td>
+      <td colspan="2"><img src="https://projects.codecraftworks.com/web/gtIgGX2KZp2ctafPbUNy/assets/bob.png" alt="Bob's photo"></td>
+    </tr>
+  </table>
+
+  <!-- Form -->
+  <h2>Sample Input Form</h2>
+  <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+    <label>Subscribe:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">Yes, sign me up!</label><br><br>
+
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+    <label for="level">Skill Level:</label>
+    <meter id="level" min="0" max="10" value="7">7 out of 10</meter><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
