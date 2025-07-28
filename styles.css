@@ -1,0 +1,98 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 20px;
+  background-color: #ffe6f0; /* light pink */
+  color: black;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+}
+
+/* Tic-Tac-Toe Table */
+.tic-tac-toe {
+  border-collapse: collapse;
+  margin: 0 auto 40px auto;
+  background-color: #fff0f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.tic-tac-toe td {
+  border: 2px solid #d63384;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Sample Data Table */
+.sample-table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto 40px auto;
+  background-color: #fffafc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.sample-table th,
+.sample-table td {
+  border: 1px solid #ff99cc;
+  padding: 12px;
+  text-align: center;
+  color: black;
+}
+
+.sample-table th {
+  background-color: #ffd6e7;
+}
+
+.sample-table img {
+  display: block;
+  margin: auto;
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ff66b2;
+}
+
+/* Form Styling */
+form {
+  background: #fff0f5;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px dashed #ff66b2;
+}
+
+form input,
+form select,
+form label,
+form meter {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: black;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #ff66b2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e055a0;
+}
